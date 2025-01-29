@@ -12,7 +12,7 @@
   <project name="proprietary_vendor_sony_tama-common" path="vendor/sony/tama-common" remote="lycra" revision="15" />
 
   <!--Kernel Tree-->
-  <project name="android_kernel_sony_sdm845"          path="kernel/sony/sdm845"      remote="lycra" revision="15" />
+  <project name="android_kernel_tama_sdm845"          path="kernel/sony/sdm845"      remote="lycra" revision="lineage" />
 
   <!--Hardware dependencies-->
   <project name="android_hardware_sony_SonyOpenTelephony"             path="hardware/sony/SonyOpenTelephony"      remote="lycra" revision="15" />
