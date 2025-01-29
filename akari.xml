@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--Remotes-->
-  <remote name="lycra"            fetch="https://github.com/Firxp011" />
+  <remote name="lycra"            fetch="https://github.com/Firxp011"                revision="15" />
 
   <!--Devices Trees-->
-  <project name="android_device_sony_akari"           path="device/sony/akari"       remote="lycra" revision="15" />
-  <project name="android_device_sony_tama-common"     path="device/sony/tama-common" remote="lycra" revision="15" />
+  <project name="android_device_sony_akari"           path="device/sony/akari"       remote="lycra" />
+  <project name="android_device_sony_tama-common"     path="device/sony/tama-common" remote="lycra" />
 
   <!--Vendors Tree-->
-  <project name="proprietary_vendor_sony_akari"       path="vendor/sony/akari"       remote="lycra" revision="15" />
-  <project name="proprietary_vendor_sony_tama-common" path="vendor/sony/tama-common" remote="lycra" revision="15" />
+  <project name="proprietary_vendor_sony_akari"       path="vendor/sony/akari"       remote="lycra" />
+  <project name="proprietary_vendor_sony_tama-common" path="vendor/sony/tama-common" remote="lycra" />
 
   <!--Kernel Tree-->
-  <project name="android_kernel_tama_sdm845"          path="kernel/sony/sdm845"      remote="lycra" revision="lineage" />
+  <project name="android_kernel_tama_sdm845"          path="kernel/sony/sdm845"      remote="lycra" />
 
   <!--Hardware dependencies-->
-  <project name="android_hardware_sony_SonyOpenTelephony"             path="hardware/sony/SonyOpenTelephony"      remote="lycra" revision="15" />
+  <project name="android_hardware_sony_SonyOpenTelephony"             path="hardware/sony/SonyOpenTelephony"      remote="lycra" />
 </manifest>
 
 
