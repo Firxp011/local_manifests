@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--Remotes-->
-  <remote name="lycra"            fetch="https://github.com/Firxp011"                revision="15" />
+  <remote name="lycra"            fetch="https://github.com/Firxp011"                revision="14" />
 
   <!--Devices Trees-->
   <project name="android_device_sony_akari"           path="device/sony/akari"       remote="lycra" />
