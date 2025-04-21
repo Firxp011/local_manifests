@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--Remotes-->
-  <remote name="lycra"            fetch="https://github.com/Firxp011"                revision="15" />
+  <remote name="los"            fetch="https://github.com/LineageOS"           revision="lineage-22.2" />
+  <remote name="muppets"        fetch="https://github.com/TheMuppets"          revision="lineage-22.2" />
 
   <!--Devices Trees-->
-  <project name="android_device_sony_akari"           path="device/sony/akari"       remote="lycra" />
-  <project name="android_device_sony_tama-common"     path="device/sony/tama-common" remote="lycra" />
+  <project name="android_device_sony_akari"           path="device/sony/akari"       remote="los" />
+  <project name="android_device_sony_tama-common"     path="device/sony/tama-common" remote="los" />
 
   <!--Vendors Tree-->
-  <project name="proprietary_vendor_sony_akari"       path="vendor/sony/akari"       remote="lycra" />
-  <project name="proprietary_vendor_sony_tama-common" path="vendor/sony/tama-common" remote="lycra" />
+  <project name="proprietary_vendor_sony_akari"       path="vendor/sony/akari"       remote="muppets" />
+  <project name="proprietary_vendor_sony_tama-common" path="vendor/sony/tama-common" remote="muppets" />
 
   <!--Kernel Tree-->
-  <project name="android_kernel_tama_sdm845"          path="kernel/sony/sdm845"      remote="lycra" />
+  <project name="android_kernel_sony_sdm845"          path="kernel/sony/sdm845"      remote="los" />
 
   <!--Hardware dependencies-->
-  <project name="android_hardware_sony_SonyOpenTelephony"             path="hardware/sony/SonyOpenTelephony"      remote="lycra" />
+  <project name="android_hardware_sony_SonyOpenTelephony"             path="hardware/sony/SonyOpenTelephony"      remote="los" />
 </manifest>
 
 
