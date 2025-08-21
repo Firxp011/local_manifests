@@ -3,14 +3,15 @@
   <!--Remotes-->
   <remote name="los"            fetch="https://github.com/LineageOS"           revision="lineage-22.2" />
   <remote name="muppets"        fetch="https://github.com/TheMuppets"          revision="lineage-22.2" />
+  <remote name="labs"		fetch="https://github.com/Lycra-s-Labs"        revision="lineage-22.2" />
 
   <!--Devices Trees-->
-  <project name="android_device_sony_akari"           path="device/sony/akari"       remote="los" />
-  <project name="android_device_sony_tama-common"     path="device/sony/tama-common" remote="los" />
+  <project name="android_device_sony_akari"           path="device/sony/akari"       remote="labs" />
+  <project name="android_device_sony_tama-common"     path="device/sony/tama-common" remote="labs" />
 
   <!--Vendors Tree-->
   <project name="proprietary_vendor_sony_akari"       path="vendor/sony/akari"       remote="muppets" />
-  <project name="proprietary_vendor_sony_tama-common" path="vendor/sony/tama-common" remote="muppets" />
+  <project name="proprietary_vendor_sony_tama-common" path="vendor/sony/tama-common" remote="labs" />
 
   <!--Kernel Tree-->
   <project name="android_kernel_sony_sdm845"          path="kernel/sony/sdm845"      remote="los" />
@@ -18,5 +19,3 @@
   <!--Hardware dependencies-->
   <project name="android_hardware_sony_SonyOpenTelephony"             path="hardware/sony/SonyOpenTelephony"      remote="los" />
 </manifest>
-
-
